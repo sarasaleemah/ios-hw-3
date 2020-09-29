@@ -42,6 +42,7 @@ class ViewController: UIViewController {
            if (activePlayer == 1)
            {
                sender.setBackgroundImage(UIImage(named: "tweety"), for: UIControl.State())
+//            bouns 🔥
             sound (name: "bird")
             let impactFeedbackgenerator = UIImpactFeedbackGenerator(style: .light)
             impactFeedbackgenerator.prepare()
@@ -68,6 +69,7 @@ class ViewController: UIViewController {
                
                if gameState[combination[0]] == 1
                {
+                //            bouns 🔥
                 p1 += 1
                 nump1.text = String(p1)
                 if(p1 == 3){
@@ -137,6 +139,7 @@ class ViewController: UIViewController {
     
     func sound (name: String)
 {
+    //            bouns 🔥
     let pathToSound2 = Bundle.main.path(forResource: name, ofType: "m4a")!
      let url = URL(fileURLWithPath: pathToSound2)
      do{
